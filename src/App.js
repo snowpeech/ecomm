@@ -1,9 +1,22 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
+
 import "./App.css";
-import HomePage from './homepage.component';
+
+import HomePage from "./homepage.component";
+import ShopPage from "./shop.components";
+import Header from "./header.component";
 
 function App() {
-  return <div><HomePage /></div>;
+  return (
+    <div>
+      <Header />
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/shop' component={ShopPage} />
+      </Switch>
+    </div>
+  );
 }
 
 export default App;
