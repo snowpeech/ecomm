@@ -2,7 +2,7 @@ import React from "react";
 
 import MerchItem from "./merch-item.component";
 
-import "./preview.styles.scss";
+import "../styles/preview.styles.scss";
 
 const Preview = ({ title, items }) => (
   <div className='collection-preview'>

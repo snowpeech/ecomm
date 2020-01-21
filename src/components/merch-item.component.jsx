@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./merch-item.styles.scss";
+import "../styles/merch-item.styles.scss";
 
 const MerchItem = ({ id, name, price, imageUrl }) => (
   <div className='merch-item'>
