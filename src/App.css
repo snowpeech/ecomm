@@ -7,3 +7,7 @@ a {
   text-transform: none;
   color: black;
 }
+
+* {
+  box-sizing: border-box;
+}
