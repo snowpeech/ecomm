@@ -8,7 +8,6 @@ import "../styles/merch-item.styles.scss";
 
 const MerchItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
-
   return (
     <div className='merch-item'>
       <div
