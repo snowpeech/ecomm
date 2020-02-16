@@ -16,8 +16,8 @@ const CollectionsOverview = ({ collections }) => (
   </div>
 );
 
-const maptStateToProps = createStructuredSelector({
+const mapStateToProps = createStructuredSelector({
   collections: selectCollectionsForPreview
 });
 
-export default connect(maptStateToProps)(CollectionsOverview);
+export default connect(mapStateToProps)(CollectionsOverview);
